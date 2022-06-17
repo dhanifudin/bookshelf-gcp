@@ -2,7 +2,6 @@ version: "3"
 services:
   bookshelf:
     build: .
-    image: dhanifudin/bookshelf
     container_name: bookshelf
     restart: unless-stopped
     ports:
